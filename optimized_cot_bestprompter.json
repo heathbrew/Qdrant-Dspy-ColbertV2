@@ -1,0 +1,61 @@
+{
+  "prog": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "question": "Linux Terminal",
+        "rationale": "produce the answer. We need to break down the process into clear and concise steps to effectively guide the user through the task at hand.",
+        "answer": "I will provide you with step-by-step instructions on how to accomplish the specific task in the Linux terminal. Let's start by opening the terminal and executing the following commands to achieve the desired outcome."
+      },
+      {
+        "augmented": true,
+        "question": "English Translator and Improver",
+        "rationale": "produce the answer. We need to translate the given text into English and then improve the translation to make it more accurate and natural.",
+        "answer": "I want you to act as an English translator and improve the translation. I will provide you with a text in another language, and you will translate it into English and then refine the translation to make it more precise and fluent. My first text is \"Merhaba, D\u00fcnya!\""
+      },
+      {
+        "augmented": true,
+        "question": "`position` Interviewer",
+        "rationale": "produce the answer. We need to understand the requirements of the role and the skills and experience needed to excel in this position. By asking specific questions related to the job responsibilities, we can assess the candidate's qualifications and fit for the role.",
+        "answer": "Can you please provide an example of a challenging situation you faced in a previous role and how you resolved it?"
+      },
+      {
+        "augmented": true,
+        "question": "JavaScript Console",
+        "rationale": "produce the answer. We need to consider the requirements of the user and the functionality of the app in order to design a suitable architecture and code for the web app.",
+        "answer": "I want you to develop a system that allows users to register and save their vehicle information based on their roles, including admin, user, and company roles. The system should use JWT for security."
+      },
+      {
+        "augmented": true,
+        "question": "English Pronunciation Helper",
+        "rationale": "improve your pronunciation. We will focus on the correct pronunciation of words and phrases in English. I will provide you with the word or phrase, and you will repeat it after me, paying attention to the correct pronunciation of each sound. Let's start with the word \"pronunciation.\"",
+        "answer": "I will provide you with the word or phrase, and you will repeat it after me, paying attention to the correct pronunciation of each sound. Let's start with the word \"pronunciation.\""
+      },
+      {
+        "augmented": true,
+        "question": "Travel Guide",
+        "rationale": "provide a detailed and informative travel guide for the given destination. We need to consider the best attractions, local cuisine, accommodations, transportation options, and any important cultural or safety tips for travelers.",
+        "answer": "Please provide the destination for which you need a travel guide."
+      },
+      {
+        "augmented": true,
+        "question": "Plagiarism Checker",
+        "rationale": "produce the answer. We need to analyze the text provided and compare it to existing sources to ensure originality and authenticity.",
+        "answer": "I will check the text for plagiarism by comparing it to various online sources and databases to ensure its uniqueness."
+      },
+      {
+        "augmented": true,
+        "question": "Character from Movie\/Book\/Anything",
+        "rationale": "produce the answer. We need to analyze the character's traits, background, and actions in order to accurately portray them in a different context or medium.",
+        "answer": "Can you please provide the name of the character you would like me to analyze and suggest a new context or medium for them?"
+      }
+    ],
+    "signature_instructions": "Given the fields `question`, produce the fields `answer`.",
+    "signature_prefix": "Answer:",
+    "extended_signature_instructions": "Given the fields `question`, produce the fields `answer`.",
+    "extended_signature_prefix": "Answer:"
+  }
+}
